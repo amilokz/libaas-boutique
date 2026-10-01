@@ -116,7 +116,18 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-cream/10 pt-8 text-xs text-cream/45 sm:flex-row">
-          <p>© 2026 Libaas Boutique. All rights reserved.</p>
+          <p>
+            © 2026 Libaas Boutique. All rights reserved. · Designed &amp; built
+            by{" "}
+            <a
+              href="https://akclnt.com"
+              target="_blank"
+              rel="noopener"
+              className="underline-offset-4 transition-colors hover:text-cream/70 hover:underline"
+            >
+              AKCLNT
+            </a>
+          </p>
           <p className="tracking-widest uppercase">
             Crafted with love in Lahore
           </p>
